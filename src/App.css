@@ -1,0 +1,46 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-color: #ebebeb;
+}
+
+.App{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.game{
+  height: 22rem;
+  width: 22rem;
+  background-color: #4d828e;
+  display: flex;
+  flex-direction: column;
+}
+
+.gameRow{
+  flex: 33%;
+  display: flex;
+}
+
+.box{
+  flex: 33%;
+  height: 100%;
+  border: 1px solid white;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-size: 28px;
+  color: white;
+}
+
+.box:active{
+  background-color: #254d56;
+}
